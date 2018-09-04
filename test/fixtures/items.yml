@@ -1,0 +1,14 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+hippo:
+  title: Hippopotamus('William')
+  description: Egyptian, Middle Kingdom; Faience
+  starting_bid: 400.00
+  image_url: https://images.metmuseum.org/CRDImages/eg/web-large/DP248993.jpg
+
+desk:
+  title: 1902 Desk
+  artist: Carlo Bugatti
+  description: Walnut, copper, pewter, vellum
+  starting_bid: 12000
+  image_url: https://images.metmuseum.org/CRDImages/ma/web-large/DT11195.jpg

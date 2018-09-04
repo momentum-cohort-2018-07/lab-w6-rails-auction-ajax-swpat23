@@ -1,0 +1,10 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+desk_one:
+  item: desk
+  amount: 13000
+
+desk_two:
+  item: desk
+  amount: 14000
+
