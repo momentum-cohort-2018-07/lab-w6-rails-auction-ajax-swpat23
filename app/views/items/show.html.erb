@@ -28,10 +28,11 @@
     $<%= text_field_tag nil, @item.highest_bid_amount, disabled: true %>
   </div>
 
-  <%= form_with(model: @bid, local: true) do |f| %>
+  <%= form_with(model: @bid, remote: true) do |f| %>
     <h3>Your Bid</h3>
     <%= f.hidden_field :item_id %>
     $<%= f.number_field :amount %></div>
     <%= f.submit "Bid!", class: "btn btn-primary btn-small" %>
+    
   <% end %>
 </div>
